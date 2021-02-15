@@ -1,0 +1,191 @@
+/* VISUALIZING MENTAL ILLNESS */
+
+
+
+/* Base styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+  color: black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-flow: dense;
+}
+
+
+
+
+/* Header */
+
+header {
+  padding: 0.5em;
+  text-align: center;
+  background-color: #E095EC
+  height:auto;
+}
+
+
+a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.Home {
+  font-family: 'Red Rose', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 30px;}
+
+  .eat {
+    background-color: #E9BC79;
+  }
+
+  .depression {
+    background-color: #9BA5FF;
+  }
+
+  .anxiety {
+    background-color: #DAD66B;
+  }
+
+  .adhd {
+    background-color: #84C883;
+  }
+
+  .ptsd {
+    background-color: #E1516B;
+  }
+
+  .ocd{
+    background-color: #CFCDCF;
+  }
+
+
+
+/* Content sections */
+
+.content-image {
+  background-color: #C4C4C4;
+}
+
+.content-image img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.content-text {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+
+h2 {
+  font-weight:300;
+}
+
+.linklearn {
+  color: #E095EC;
+  text-decoration: underline;
+  font-size:16px;
+
+}
+
+.Eatsym {
+  color: #E9BC79;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.DEPsym {
+  color: #9BA5FF;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.ANXsym {
+  color: #DAD66B;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.ADHDsym {
+  color: #84C883;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.PTSDsym {
+    color: #E1516B;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.OCDsym {
+    color: #CFCDCF;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+
+
+
+/* Media queries */
+
+@media (min-width: 60em) {
+  body {
+    grid-template-columns: 20em auto
+  }
+  header {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+}
+
+
+@media (min-width: 75em) {
+  main {
+    grid-template-columns: 50% 50%;
+  }
+  .content-image {
+    grid-column: 2;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .content-image img {
+    min-height: 100vh;
+  }
+}
