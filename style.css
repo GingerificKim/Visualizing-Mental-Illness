@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Bitter', serif;
   font-weight: 300;
   color: black;
@@ -97,8 +97,8 @@ a {
   display: block;
   margin: 0;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
+  object-fit: fill;
 }
 
 .content-text {
