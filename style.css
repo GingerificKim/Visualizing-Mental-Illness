@@ -31,6 +31,9 @@ main {
   grid-auto-flow: dense;
 }
 
+li {
+  margin-bottom: 1em;
+}
 
 
 
@@ -175,6 +178,10 @@ h2 {
     top: 0;
     height: 100vh;
   }
+  nav p {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
 }
 
 
@@ -191,4 +198,9 @@ h2 {
   .content-image img {
     min-height: 100vh;
   }
+  .content-text {
+    font-size: 1.5vw;
+  }
 }
+
+
